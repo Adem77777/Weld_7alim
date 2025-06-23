@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Weld 7alim</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Tahoma', sans-serif;
+      background-color: #f4f4f4;
+      color: #222;
+      direction: ltr;
+    }
+
+    header {
+      background-color: #0984e3;
+      color: white;
+      padding: 30px 0;
+      text-align: center;
+    }
+
+    nav {
+      background-color: #2d3436;
+      display: flex;
+      justify-content: center;
+      padding: 10px 0;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 20px;
+      font-weight: bold;
+      transition: 0.3s;
+    }
+
+    nav a:hover {
+      color: #00cec9;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: auto;
+      padding: 40px 20px;
+      text-align: center;
+    }
+
+    h2 {
+      color: #0984e3;
+    }
+
+    footer {
+      background-color: #636e72;
+      color: white;
+      text-align: center;
+      padding: 15px;
+      margin-top: 50px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Weld 7alim</h1>
+    <p>Innovation in the world of digital technology</p>
+  </header>
+
+  <nav>
+    <a href="#">Home</a>
+    <a href="#">About Us</a>
+    <a href="#">Services</a>
+    <a href="#contact">Contact Us</a>
+  </nav>
+
+  <div class="container">
+    <h2>About Us</h2>
+    <p>
+      Weld 7alim is a digital project aiming to provide innovative technical solutions that combine simplicity and creativity to serve anyone needing a professional website or app.
+    </p>
+
+    <h2>Services</h2>
+    <p>
+      - Website design<br />
+      - Application development<br />
+      - Visual identity and logos<br />
+      - Technical consulting
+    </p>
+  </div>
+
+  <div class="container" id="contact">
+    <h2>Contact Us</h2>
+    <p>Phone Number: <strong>29529126</strong></p>
+  </div>
+
+  <footer>
+    &copy; 2025 Weld 7alim - All rights reserved.
+  </footer>
+
+</body>
+</html>
